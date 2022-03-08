@@ -1,0 +1,27 @@
+x = float(input('Qual é a altura da sua parede em metros? '))
+y = float(input('Qual é a largua da sua parede em metros? '))
+print(f' A área da sua parede é {x*y} metros quadrados')
+print(f' Já que uma lata de tinta pinte 2 metros de parede, logo:')
+print(f' Sua parede precisará de {(x*y)/2} latas de tinta')
+
+
+print('Calcule 10% de desconto')
+n = float(input('Qual o valor do produto? '))
+print(f'Com 10% de desconto fica por {n-(n*0.1)}')
+
+print('Faça o calculo do seu novo salario:')
+n = float(input('Qual seu salario atual?: '))
+print('Com 15% de aumento, seu salario fica:')
+print(f'{n+(n*0.15)}')
+
+num = int(input('Digite um numero pra ver sua taboada: '))
+print(f'{num} X {1} = {num*1}')
+print(f'{num} X {2} = {num*2}')
+print(f'{num} X {3} = {num*3}')
+print(f'{num} X {4} = {num*4}')
+print(f'{num} X {5} = {num*5}')
+print(f'{num} X {6} = {num*6}')
+print(f'{num} X {7} = {num*7}')
+print(f'{num} X {8} = {num*8}')
+print(f'{num} X {9} = {num*9}')
+print(f'{num} X {10} = {num*10}')

@@ -1,0 +1,7 @@
+frase= str(input('Digite uma frase qualquer: '))
+x= frase.count('a')
+y= frase.find('a')
+b= frase.rfind('a')
+print(f'Sua frase aparece a letra a {x} vezes')
+print(f'Sua frase aparece a pela primeira vez em {y}')
+print(f'Sua frase aparece a pela ultima vez em {b}')
